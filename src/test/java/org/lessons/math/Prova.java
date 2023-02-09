@@ -6,7 +6,6 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.lessons.math.Calculator;
 
 public class Prova {
 
@@ -18,10 +17,10 @@ public class Prova {
 	}
 
 	@Test
-	@DisplayName("Test metodo Sottrazione")
+	@DisplayName("Test metodo Addizione")
 	public void testAdd() {
 		float result = calcolatrice.addizione(35, 25);
-		assertEquals(result, 10);
+		assertEquals(result, 60);
 	}
 
 	@Test
